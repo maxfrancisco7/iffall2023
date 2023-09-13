@@ -1,0 +1,52 @@
+body {
+
+background-color: black;
+
+}
+
+h1 {
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 4em;
+    text-shadow: 2px 2px 0px crimson;
+    text-align:center;
+    margin-top: 80px;
+    color: rgb(232, 255, 192);
+
+}
+
+h2 {
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 60px;
+    color: rgb(232, 255, 192);
+
+}
+
+p {
+
+    color: rgb(232, 255, 192);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.8;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 40px;
+
+}
+
+.name {
+
+    color: crimson;
+    font-weight: bold;
+
+
+}
+
+.brackets {
+
+    font-style: italic;
+
+}
