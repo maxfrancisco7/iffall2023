@@ -1,0 +1,96 @@
+html {
+    margin-left: 15em;
+    margin-right: 15em;
+    margin-top: 5em;
+    margin-bottom: 20em;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15pt;
+    background-color: rgb(245, 245, 255);
+    color: rgb(129, 142, 154);
+}
+
+article {
+    margin-bottom: 6em;
+}
+
+section {
+    margin-bottom: 3em;
+}
+
+h1 {
+    font-size: 3em;
+    color: rgb(56, 67, 76);
+    display: block;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: rgb(100, 113, 124);
+    display: block;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.4em;
+    text-indent: -2em;
+    color: rgb(100, 113, 124);
+    text-decoration: underline;
+}
+
+h4 {
+    font-size: 1.2em;
+    text-indent: -1em;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.far {
+    letter-spacing: 0.2em;
+}
+
+.farther {
+    letter-spacing: 0.4em;
+}
+
+.close {
+    letter-spacing: -0.05em;
+}
+
+.closer {
+    letter-spacing: -0.1em;
+}
+
+.linethru {
+    text-decoration: line-through;
+}
+
+.overline {
+    text-decoration: overline;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.caps {
+    text-transform: capitalize;
+}
+
+.allcaps {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
