@@ -1,0 +1,52 @@
+html {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 2.5em;
+    margin-bottom: 5em;
+    background-color: rgb(255, 245, 235);
+}
+
+article {
+    margin-bottom: 3em;
+}
+
+h1{
+    font-size: 5em;
+    font-weight: 700;
+    margin-left: -1.8rem;
+    margin-bottom: -0.2em;
+}
+
+h2 {
+    font-size: 1.6em;
+    text-indent: -2.2em;
+    margin-top: 2.5em;
+}
+
+h3{
+    font-size: 1.3em;
+    font-weight: 500;
+    line-height: 1.2em;
+    margin-left: -1.5rem;
+}
+
+li {
+    line-height: 1.2em;
+    color: rgb(110, 110, 110);
+}
+
+img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+  }
+  
+  .imagerow {
+    display: flex;
+  }
+  
+  .img1 { flex: 0.75; }
+  .img2 { flex: 0.75; }
+  .img3 { flex: 0.667; }
