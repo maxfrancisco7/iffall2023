@@ -1,0 +1,125 @@
+html {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+header {
+    text-align: center;
+    color: white;
+    background-image: url("../img/digable.webp");
+    background-position: top center;
+}
+
+header .column_container {
+    padding-top: 151px;
+    padding-bottom: 185px;
+}
+
+section {
+    color: white;
+}
+
+section .column_container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 80px;
+    text-shadow: 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 35px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+h3 {
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 33px;
+}
+
+p {
+    font-size: 17.6px;
+    font-weight: 500;
+    line-height: 25.2px;
+    margin-bottom: 16px;
+}
+
+.column_container {
+    width: 960px;
+    margin: auto;
+}
+
+section.intro_text {
+    background-color: rgb(75, 78, 111);
+}
+
+section.content_grid {
+    background-color: rgb(111, 75, 107);
+}
+
+section.closing {
+    background-color: rgb(75, 78, 111);
+    padding-bottom: 45px;
+}
+
+footer {
+    background-color: rgb(111, 75, 107);
+}
+
+.bigguy {
+    float:right;
+    width: 400px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 500;
+}
+
+.lilguy {
+    float: left;
+    width: 200px;
+    margin-right: 13px;
+}
+
+.phototitle {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+
+.griddy li {
+    display: inline-block;
+    width: 45%;
+    margin-left: 0px;
+    margin-right: 44px;
+    margin-bottom: 24px;
+}
+
+.closingtext {
+    font-size: 25.4px;
+    text-align: center;
+    margin-top: -4px;
+    margin-left: 125px;
+    margin-right: 125px;
+    line-height: 36px;
+}
+
+.copyright {
+    font-weight: 500;
+    color: white;
+    margin: 0px;
+    padding-top: 42px;
+    padding-bottom: 40px;
+}
