@@ -1,0 +1,135 @@
+html {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    list-style-position: outside;
+    background-color: rgb(255, 240, 225);
+    color: rgb(89, 80, 71);
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 70px;
+    color: rgb(255, 228, 202);
+    font-weight: 700;
+    text-align: center;
+    background-color: rgb(146, 95, 73);
+    padding: 100px 100px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: rgb(114, 68, 49);
+}
+
+.specs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style: none;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.specs li {
+    width: 100%;
+}
+
+.ingredients {
+    line-height: 1.3rem;
+    list-style: circle;
+    margin-bottom: 80px;
+}
+
+.equipment {
+    line-height: 1.3rem;
+    list-style: circle;
+    margin-bottom: 80px;
+}
+
+.instructions {
+    line-height: 1.3rem;
+    margin-bottom: 80px;
+}
+
+.instructions ol {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+
+.instructions li {
+    width: 45%;
+    padding-right: 5%;
+    margin-bottom: 50px;
+    list-style-position: inside;
+}
+
+li {
+    padding-bottom: 15px;
+}
+
+.photo img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.floatphoto img{
+    float: right;
+    width: 12rem;
+    height: 10rem;
+    object-fit: cover;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 640px) {
+    html {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+    h2 {
+        font-size: 15px;
+    }
+    .specs {
+        margin-bottom: 60px;
+    }
+    .ingredients {
+        margin-bottom: 60px;
+    }
+    .equipment {
+        margin-bottom: 60px;
+    }
+    .instructions {
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    html {
+        margin-bottom: 20px;
+    }
+    .instructions li {
+        width: 100%;
+        margin-bottom: 0px;
+        list-style-position: inside;
+    }
+}
+
+section {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    max-width: 50rem;
+}
