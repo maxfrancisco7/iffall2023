@@ -1,0 +1,327 @@
+a#btn_oldnavy {
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 0px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 5px 20px 0 20px;
+    background-color: #003764;
+    border: 2px solid #003764;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 0.05rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .4s;
+}
+
+a#btn_oldnavy:hover {
+    background-color: #007fc4;
+    border: 2px solid #007fc4;
+    color: #ffffff;
+    letter-spacing: 0.3rem;
+    padding: 5px 20px 0 20px;
+}
+
+a#btn_mobot {
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 20px 0 20px;
+    background-color: #006b36;
+    border: 2px solid #006b36;
+    color: #fff;
+    font-size: 12px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_mobot .longname {
+    display: none;
+}
+
+a#btn_mobot:hover .longname {
+    display: inline;
+}
+
+a#btn_mobot:hover .shortname {
+    display: none;
+}
+
+a#btn_mobot:hover {
+    background-color: #ffffff;
+    border: 2px solid #f3d174;
+    color: #006b36;
+    font-size: 12px;
+    text-decoration: underline;
+    padding: 10px 30px 0 30px;
+}
+
+a#btn_samsung {
+    display: inline-block;
+    height: 40px;
+    width: 150px;
+    box-sizing: border-box;
+    border-radius: 0px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 8px 20px 0 20px;
+    background-color: #ffffff;
+    border: 2px solid #0c23a1;
+    transition: all .6s;
+}
+
+a#btn_samsung .samsungpic {
+    width: 80%;
+    max-width: 7rem;
+    padding: 0px -20px 0px -20px;
+}
+
+a#btn_samsung:hover {
+    background-color: #ffffff;
+    height: 44px;
+    width: 200px;
+    margin-top: 103px;
+    border: 4px solid #0c23a1;
+    color: #ffffff;
+    letter-spacing: 0.3rem;
+    padding: 10px 5px 0 5px;
+}
+
+a#btn_foreflight {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 12px 30px 0 30px;
+    background-color: #1f272e;
+    border: 2px solid #1f272e;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+    transition: all .2s;
+}
+
+a#btn_foreflight:hover {
+    background-color: #1f272e;
+    color: #ffffff;
+    border: 2px solid #fce900;
+    border-radius: 8px;
+    height: 60px;
+    margin-top: 95px;
+    padding: 17px 36px 0 36px;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+
+moobox {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    width: 120px;
+    height: 120px;
+    overflow: visible;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+moobox a#btn_moo{
+    display: inline-block;
+    height: 80px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 18px;
+    padding: 25px 20px 0 20px;
+    background-color: #56CB82;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 0.2rem;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    transition: all .6s;
+}
+
+moobox:hover a#btn_moo {
+    background-color: #4B596D;
+    color: #ffffff;
+    height: 40px;
+    margin-top: 40px;
+    padding: 5px 15px 0 15px;
+    letter-spacing: 0;
+    transform: rotate(360deg);
+}
+
+a#btn_coke {
+    display: inline-block;
+    height: 80px;
+    width: 120px;
+    box-sizing: border-box;
+    border-radius: 40px;
+    margin: auto;
+    margin-top: 85px;
+    background-color: #ffffff;
+    border: 4px solid #f40008;
+    transition: all .3s;
+}
+
+a#btn_coke .cokepic {
+    position: relative;
+    width: 5rem;
+    margin-top: 14px;
+    padding-left: 2px;
+    transition: all ease-in-out .7s;
+}
+
+a#btn_coke:hover {
+    width: 140px;
+    background-color: #f40008;
+    border: 4px solid #fff;
+    box-shadow: 0 0 0px 12px #f40008;
+}
+
+a#btn_coke:hover .cokepic {
+    filter: grayscale(100%);
+    filter: brightness(-100%);
+}
+
+a#btn_tnshow {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background-color: #002c53;
+    box-shadow: 0 0 0px 6px #002c53;
+    margin: auto;
+    margin-top: 75px;
+    transition: all .2s;
+}
+
+a#btn_tnshow .tnshowpic {
+    width: 100%;
+}
+
+a#btn_tnshow:hover {
+    background-color:#e20f7a;
+    box-shadow: 0 0 0px 4px #e20f7a;
+}
+
+a#btn_facebook {
+    display: inline-block;
+    height: 30px;
+    width: 125px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, #0866ff 0%, #0866ff 100%);
+    padding-top: 2px;
+    margin: auto;
+    margin-top: 110px;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .2s;
+}
+
+a#btn_facebook:hover {
+    background: linear-gradient(to bottom, #0866ff 0%,#074fc1 100%);
+    height: 40px;
+    padding-top: 6px;
+    margin-top: 105px;
+    font-size: 22px;
+}
+
+a#btn_harley {
+    display: inline-block;
+    height: 50px;
+    width: 180px;
+    box-sizing: border-box;
+    background-color: #fa6600;
+    margin: auto;
+    margin-top: 100px;
+    padding-top: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .2s;
+}
+
+@keyframes rev {
+    from { transform: rotate(-3deg); }
+    33% { transform: rotate(2deg) scale(102%); }
+    66% { transform: rotate(-2deg) scale(98%); }
+    to { transform: rotate(3deg); }
+}
+
+a#btn_harley:hover {
+    animation-name: rev;
+    animation-duration: 0.3s;
+    animation-iteration-count: 1;
+    box-shadow: 0 0 0px 5px #404040;
+}
+
+a#btn_fitbit {
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 5px 20px 0 20px;
+    background-color: #002a3a;
+    border: 2px solid #002a3a;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: normal;
+    letter-spacing: 0.35rem;
+    text-decoration: none;
+    transition: all .4s;
+}
+
+a#btn_fitbit span#fit {
+    margin-right: 0;
+    color: #ef3d6f;
+    transition: all .4s;
+}
+a#btn_fitbit span#bit {
+    margin-left: 0;
+    color: #ffffff;
+    transition: all .4s;
+}
+
+a#btn_fitbit:hover {
+    border-radius: 0px;
+    background-color: #002a3a;
+    border: 2px solid #002a3a;
+    color: #ffffff;
+    letter-spacing: 0.1rem;
+    padding: 5px 20px 0 20px;
+}
+
+a#btn_fitbit:hover span#fit {
+    margin-right: 10px;
+    color: #ffffff;
+}
+a#btn_fitbit:hover span#bit {
+    margin-left: 10px;
+    color: #ef3d6f;
+}
